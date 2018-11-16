@@ -7,16 +7,21 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Filmes.Data;
 using Filmes.Models;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 
 namespace Filmes
 {
+    [Authorize]
     public class FilmesController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private readonly UserManager<ApplicationUser> _manager;
 
-        public FilmesController(ApplicationDbContext context)
+        public FilmesController(ApplicationDbContext context, UserManager<ApplicationUser> manager)
         {
             _context = context;
+            _manager = manager;
         }
 
         // GET: Filmes
@@ -54,10 +59,11 @@ namespace Filmes
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ID,Title,ReleaseDate,Genre")] Filme filme)
+        public async Task<IActionResult> Create([Bind("ID, PK_User, Title,ReleaseDate,Genre")] Filme filme)
         {
             if (ModelState.IsValid)
             {
+                filme.PK_User = _manager.GetUserId(HttpContext.User);
                 _context.Add(filme);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));

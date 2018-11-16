@@ -10,3 +10,15 @@ C:\Users\gabri\source\repos\GabrielCardosoSantos\Filmes\Filmes\obj\Debug\netcore
 C:\Users\gabri\source\repos\GabrielCardosoSantos\Filmes\Filmes\obj\Debug\netcoreapp2.0\Filmes.AssemblyInfo.cs
 C:\Users\gabri\source\repos\GabrielCardosoSantos\Filmes\Filmes\obj\Debug\netcoreapp2.0\Filmes.dll
 C:\Users\gabri\source\repos\GabrielCardosoSantos\Filmes\Filmes\obj\Debug\netcoreapp2.0\Filmes.pdb
+C:\Users\gabri\source\repos\GabrielCardosoSantos\SistemasInformacaoDistribuido\Filmes\Filmes\bin\Debug\netcoreapp2.0\Filmes.deps.json
+C:\Users\gabri\source\repos\GabrielCardosoSantos\SistemasInformacaoDistribuido\Filmes\Filmes\bin\Debug\netcoreapp2.0\Filmes.runtimeconfig.json
+C:\Users\gabri\source\repos\GabrielCardosoSantos\SistemasInformacaoDistribuido\Filmes\Filmes\bin\Debug\netcoreapp2.0\Filmes.runtimeconfig.dev.json
+C:\Users\gabri\source\repos\GabrielCardosoSantos\SistemasInformacaoDistribuido\Filmes\Filmes\bin\Debug\netcoreapp2.0\Filmes.dll
+C:\Users\gabri\source\repos\GabrielCardosoSantos\SistemasInformacaoDistribuido\Filmes\Filmes\bin\Debug\netcoreapp2.0\Filmes.pdb
+C:\Users\gabri\source\repos\GabrielCardosoSantos\SistemasInformacaoDistribuido\Filmes\Filmes\obj\Debug\netcoreapp2.0\Filmes.csprojAssemblyReference.cache
+C:\Users\gabri\source\repos\GabrielCardosoSantos\SistemasInformacaoDistribuido\Filmes\Filmes\obj\Debug\netcoreapp2.0\Filmes.csproj.CoreCompileInputs.cache
+C:\Users\gabri\source\repos\GabrielCardosoSantos\SistemasInformacaoDistribuido\Filmes\Filmes\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\gabri\source\repos\GabrielCardosoSantos\SistemasInformacaoDistribuido\Filmes\Filmes\obj\Debug\netcoreapp2.0\Filmes.AssemblyInfoInputs.cache
+C:\Users\gabri\source\repos\GabrielCardosoSantos\SistemasInformacaoDistribuido\Filmes\Filmes\obj\Debug\netcoreapp2.0\Filmes.AssemblyInfo.cs
+C:\Users\gabri\source\repos\GabrielCardosoSantos\SistemasInformacaoDistribuido\Filmes\Filmes\obj\Debug\netcoreapp2.0\Filmes.dll
+C:\Users\gabri\source\repos\GabrielCardosoSantos\SistemasInformacaoDistribuido\Filmes\Filmes\obj\Debug\netcoreapp2.0\Filmes.pdb

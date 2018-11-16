@@ -78,6 +78,8 @@ namespace Filmes.Data.Migrations
 
                     b.Property<string>("Genre");
 
+                    b.Property<string>("PK_User");
+
                     b.Property<DateTime>("ReleaseDate");
 
                     b.Property<string>("Title");
